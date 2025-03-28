@@ -9,3 +9,8 @@ chmod +x create_countdown_timer.sh
 ./create_countdown_video.sh 30s
 ./create_countdown_video.sh 10m 
 ``` 
+
+Alternatively,
+```
+bash <(curl -s https://raw.githubusercontent.com/jj-tay/countdown_timer/refs/heads/main/create_countdown_video.sh) 15m
+```
